@@ -1,5 +1,4 @@
 # UART_Project
-# UART and LED Control Project
 
 This project demonstrates the integration of UART communication and onboard LED control using the TM4C123 launchpad ARM CORTEX M4  microcontroller. It provides three operational modes and enables interaction between multiple microcontrollers via UART.
 
