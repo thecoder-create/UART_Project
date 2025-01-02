@@ -1,4 +1,3 @@
-
 #include "tm4c123gh6pm.h"
 #include "PLL.h"
 #include "UART.h"
@@ -336,7 +335,7 @@ void GPIO_PortF_Init(void){
 	GPIO_PORTF_DEN_R |= 0x11;  // enable digital I/O on PF0 and PF4
 	GPIO_PORTF_IS_R &= ~0x11;  // PF0, PF4 is edge-sensitive
 	GPIO_PORTF_IBE_R &= ~0x11; // PF0, PF4 is not both edges
-	GPIO_PORTF_IEV_R |= 0x11;  // PF4 rising edge event
+	GPIO_PORTF_IEV_R |= 0x11;  // PF4 rising ege event
 	GPIO_PORTF_ICR_R = 0x11;   // clear flag4
 	GPIO_PORTF_IM_R |= 0x11;   // arm interrupt on PF4
 	NVIC_PRI7_R = (NVIC_PRI7_R & ~0x00E00000) | 0x00C00000; // priority 6
