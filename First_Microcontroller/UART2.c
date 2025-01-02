@@ -1,4 +1,3 @@
-// UART.c
 // Runs on TM4C123
 // Simple device driver for the UART. This is an example code for UART board to board communication.
 // board to board communitation uses UART1
